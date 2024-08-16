@@ -84,7 +84,7 @@ const DormCommitteeIntro = () => {
     <div style={styles.container}>
       <header style={styles.header}>
         {/* <h1 style={styles.title}>國立成功大學宿委會介紹</h1> */}
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
           <span style={{...styles.title, marginRight: '2px'}}>國立成功大學宿委會介紹</span>
           {/* <div style={{...styles.logo, backgroundColor: '#FF7F50', clipPath: 'polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%)'}}></div> */}
           {/* 放一張圖片，讓他大一點 */}
@@ -122,14 +122,14 @@ const DormCommitteeIntro = () => {
         </section>
 
         <div style={styles.socialLinks}>
-          <a href="/#" style={styles.link}>
+          <a href="https://www.facebook.com/DormCommittee.NCKU" style={styles.link}>
             {/* <Facebook size={24} style={{...styles.icon, color: '#FF7F50'}} /> */}
-            <BsFacebook style={{...styles.icon, color: '#FF7F50'}} />
+            <BsFacebook style={{...styles.icon, color: '#3b5998'}} />
             <span style={{color: '#FF7F50'}}>成大宿委會</span>
           </a>
-          <a href="/#" style={styles.link}>
+          <a href="https://www.instagram.com/dormcommittee_ncku/" style={styles.link}>
             {/* <Instagram size={24} style={{...styles.icon, color: '#FF7F50'}} /> */}
-            <BsInstagram style={{...styles.icon, color: '#FF7F50'}} />
+            <BsInstagram style={{...styles.icon, color: '#E1306C'}} />
             <span style={{color: '#FF7F50'}}>@dormcommittee_ncku</span>
           </a>
         </div>
