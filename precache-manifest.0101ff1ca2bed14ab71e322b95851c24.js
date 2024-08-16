@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37e64fabe68376acc9e70b9e72c8f2f2",
+    "revision": "5865d78e8f80fdd36f3f28fafbf31e4c",
     "url": "/ncku-dorm-committee-intro-2024/index.html"
   },
   {
