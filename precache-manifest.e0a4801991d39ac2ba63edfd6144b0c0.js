@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60b7d4ebb11eb489f7cf645736201231",
+    "revision": "5b12eeddbdb8032cd5ce9c058bf3faf4",
     "url": "/ncku-dorm-committee-intro-2024/index.html"
   },
   {
-    "revision": "ad0166dd1691f40a1998",
+    "revision": "5004c1b50cd78a2f0157",
     "url": "/ncku-dorm-committee-intro-2024/static/css/main.1624d5f1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ncku-dorm-committee-intro-2024/static/js/3.ba8b7f13.chunk.js"
   },
   {
-    "revision": "ad0166dd1691f40a1998",
-    "url": "/ncku-dorm-committee-intro-2024/static/js/main.71923e4f.chunk.js"
+    "revision": "5004c1b50cd78a2f0157",
+    "url": "/ncku-dorm-committee-intro-2024/static/js/main.f5b38186.chunk.js"
   },
   {
     "revision": "4049389684facfa27eac",
