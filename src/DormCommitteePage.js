@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { FaHouseUser } from "react-icons/fa";
 
 const styles = {
   container: {
@@ -59,6 +60,8 @@ const styles = {
     justifyContent: 'center',
     gap: '20px',
     marginBottom: '20px',
+    // 如果元素太多，可以用 flex-wrap: wrap 來讓元素換行
+    flexWrap: 'wrap',
   },
   link: {
     color: '#0066cc',
@@ -123,14 +126,19 @@ const DormCommitteeIntro = () => {
 
         <div style={styles.socialLinks}>
           <a href="https://www.facebook.com/DormCommittee.NCKU" style={styles.link}>
-            {/* <Facebook size={24} style={{...styles.icon, color: '#FF7F50'}} /> */}
             <BsFacebook style={{...styles.icon, color: '#3b5998'}} />
             <span style={{color: '#FF7F50'}}>成大宿委會</span>
           </a>
           <a href="https://www.instagram.com/dormcommittee_ncku/" style={styles.link}>
-            {/* <Instagram size={24} style={{...styles.icon, color: '#FF7F50'}} /> */}
             <BsInstagram style={{...styles.icon, color: '#E1306C'}} />
             <span style={{color: '#FF7F50'}}>@dormcommittee_ncku</span>
+          </a>
+          <a href="https://housing-osa.ncku.edu.tw/" style={styles.link}>
+            <FaHouseUser style={{...styles.icon, color: '#FF7F50'}} />
+            <span style={{color: '#FF7F50'}}>住宿服務組</span>
+          </a>          
+          <a href="https://sup.ncku.edu.tw/" style={styles.link}>
+            <img src="https://sup.ncku.edu.tw/build/assets/NCKUlogo-DQTKg6gD.svg" alt="NCKU" style={{width: '100px', height: '100px', marginRight: '5px'}} />
           </a>
         </div>
       </main>
