@@ -2,6 +2,8 @@ import React from 'react';
 import { Mail } from 'lucide-react';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaHouseUser } from "react-icons/fa";
+import { useState, useEffect } from 'react';
+import AdPopup from './AdPopup';
 
 const styles = {
   container: {
@@ -83,20 +85,31 @@ const styles = {
 };
 
 const DormCommitteeIntro = () => {
+  const [isAdOpen, setAdOpen] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAdOpen(true);
+    }, 500); // 5 秒後自動打開廣告
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setAdOpen(false);
+  };
+
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        {/* <h1 style={styles.title}>國立成功大學宿委會介紹</h1> */}
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
           <span style={{...styles.title, marginRight: '2px'}}>國立成功大學宿委會介紹</span>
-          {/* <div style={{...styles.logo, backgroundColor: '#FF7F50', clipPath: 'polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%)'}}></div> */}
-          {/* 放一張圖片，讓他大一點 */}
-            <img src="logo-small.png" alt="Logo" style={styles.logo} />
+          <img src="logo-small.png" alt="Logo" style={styles.logo} />
         </div>
       </header>
-      
+
       <main>
-      <section style={styles.section}>
+        <section style={styles.section}>
           <h2 style={styles.h2}>歡迎來到成大</h2>
           <p style={styles.p}>
             各位新生大家好，我們是國立成功大學宿委會，在此我們僅代表全體宿委會歡迎大家加入成大這個大家庭！
@@ -142,7 +155,7 @@ const DormCommitteeIntro = () => {
           </a>
         </div>
       </main>
-      
+
       <footer style={styles.footer}>
         <p style={styles.p}>如果大家有任何問題，都歡迎私訊宿委會粉專或寄信至</p>
         <a href="mailto:dormcommittee.ncku@gmail.com" style={{...styles.link, color: 'white'}}>
@@ -153,6 +166,10 @@ const DormCommitteeIntro = () => {
           *上方成大宿委會之字樣為超連結，可直接點入進入宿委會粉專喔！
         </p>
       </footer>
+
+      <div>
+        <AdPopup isOpen={isAdOpen} onClose={handleAdClose} />
+      </div>
     </div>
   );
 };

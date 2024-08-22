@@ -1,0 +1,45 @@
+/* 設置覆蓋整個螢幕的彈出層背景 */
+.popup-overlay {
+    position: fixed; /* 設置為固定位置，滾動時保持在螢幕上 */
+    top: 0;          /* 覆蓋螢幕最上方 */
+    left: 0;         /* 覆蓋螢幕最左側 */
+    right: 0;        /* 覆蓋螢幕最右側 */
+    bottom: 0;       /* 覆蓋螢幕最底部 */
+    background: rgba(0, 0, 0, 0.7); /* 使用半透明黑色作為背景以突顯彈出內容 */
+    display: flex;   /* 使用彈性盒子模型以便於置中內容 */
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+}
+
+/* 設置彈出內容的樣式 */
+.popup-content {
+    position: relative; /* 使位置相對，方便絕對定位內部元素 */
+    background: white; /* 白色背景使內容清晰可見 */
+    padding: 20px; /* 內部留白 */
+    border-radius: 8px; /* 圓角邊框 */
+    text-align: center; /* 內容文字置中 */
+    animation: slideDown 0.5s ease; /* 添加動畫效果，從上往下出現 */
+}
+
+/* 動畫設置 */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%); /* 從上方移出 */
+        opacity: 0; /* 開始時透明 */
+    }
+    to {
+        transform: translateY(0); /* 移動到最終位置 */
+        opacity: 1; /* 完全不透明 */
+    }
+}
+
+/* 關閉按鈕的樣式 */
+.close-button {
+    position: absolute; /* 絕對定位 */
+    top: 10px; /* 距上邊 10px */
+    right: 10px; /* 距右邊 10px */
+    background: transparent; /* 透明背景 */
+    border: none; /* 無邊框 */
+    font-size: 24px; /* 按鈕字體大小 */
+    cursor: pointer; /* 游標樣式為手 */
+}
