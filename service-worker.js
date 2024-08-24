@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ncku-dorm-committee-intro-2024/precache-manifest.409ddbc57a8b1253a0f20f47461a0aa4.js"
+  "/ncku-dorm-committee-intro-2024/precache-manifest.73cfbfb2727cc379fb8dccddccc1e57e.js"
 );
 
 self.addEventListener('message', (event) => {
