@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ncku-dorm-committee-intro-2024/static/css/main.a3a37916.chunk.css",
-    "main.js": "/ncku-dorm-committee-intro-2024/static/js/main.a72a597f.chunk.js",
-    "main.js.map": "/ncku-dorm-committee-intro-2024/static/js/main.a72a597f.chunk.js.map",
+    "main.js": "/ncku-dorm-committee-intro-2024/static/js/main.2dffa366.chunk.js",
+    "main.js.map": "/ncku-dorm-committee-intro-2024/static/js/main.2dffa366.chunk.js.map",
     "runtime~main.js": "/ncku-dorm-committee-intro-2024/static/js/runtime~main.a075325d.js",
     "runtime~main.js.map": "/ncku-dorm-committee-intro-2024/static/js/runtime~main.a075325d.js.map",
     "static/js/2.9a74e32f.chunk.js": "/ncku-dorm-committee-intro-2024/static/js/2.9a74e32f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.31c88699.chunk.js": "/ncku-dorm-committee-intro-2024/static/js/3.31c88699.chunk.js",
     "static/js/3.31c88699.chunk.js.map": "/ncku-dorm-committee-intro-2024/static/js/3.31c88699.chunk.js.map",
     "index.html": "/ncku-dorm-committee-intro-2024/index.html",
-    "precache-manifest.9c22e14ca22e9db860c69a212e4c16a3.js": "/ncku-dorm-committee-intro-2024/precache-manifest.9c22e14ca22e9db860c69a212e4c16a3.js",
+    "precache-manifest.4182da0302a6a3b737a0c0fbd720a6f9.js": "/ncku-dorm-committee-intro-2024/precache-manifest.4182da0302a6a3b737a0c0fbd720a6f9.js",
     "service-worker.js": "/ncku-dorm-committee-intro-2024/service-worker.js",
     "static/css/main.a3a37916.chunk.css.map": "/ncku-dorm-committee-intro-2024/static/css/main.a3a37916.chunk.css.map"
   }
