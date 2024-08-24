@@ -82,6 +82,12 @@ const styles = {
     borderRadius: '8px',
     color: 'white',
   },
+  dorm_link: {
+    color: '#FF7F50',
+    textDecoration: 'none',
+    display: 'flex',
+    alignItems: 'center',
+  },
 };
 
 const DormCommitteeIntro = () => {
@@ -152,6 +158,25 @@ const DormCommitteeIntro = () => {
           </a>          
           <a href="https://sup.ncku.edu.tw/" style={styles.link}>
             <img src="https://sup.ncku.edu.tw/build/assets/NCKUlogo-DQTKg6gD.svg" alt="NCKU" style={{width: '100px', height: '100px', marginRight: '5px'}} />
+          </a>
+        </div>
+
+        <h4>各宿舍 Facebook 粉專</h4>
+        <div style={{display: 'flex', flexWrap: 'wrap'}}>  
+          <a href='https://www.facebook.com/nckuk1dorm' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>光一舍</span>
+          </a>
+          <a href='https://www.facebook.com/NCKUK2dorm' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>光二舍</span>
+          </a>
+          <a href='https://www.facebook.com/NCKUk3dorm' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>光三舍</span>
+          </a>
+          <a href='https://www.facebook.com/V2V3V23/' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>勝利舍</span>
+          </a>
+          <a href='https://www.facebook.com/G1dorm/' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>敬一舍</span>
           </a>
         </div>
       </main>
