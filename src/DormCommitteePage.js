@@ -173,7 +173,10 @@ const DormCommitteeIntro = () => {
             <span style={{ color: '#FF7F50' }}>光三舍</span>
           </a>
           <a href='https://www.facebook.com/V2V3V23/' style={{ ...styles.link, marginRight: '15px' }}>
-            <span style={{ color: '#FF7F50' }}>勝利舍</span>
+            <span style={{ color: '#FF7F50' }}>勝一二三舍</span>
+          </a>
+          <a href='https://www.facebook.com/NCKUV89/' style={{ ...styles.link, marginRight: '15px' }}>
+            <span style={{ color: '#FF7F50' }}>勝八九舍</span>
           </a>
           <a href='https://www.facebook.com/G1dorm/' style={{ ...styles.link, marginRight: '15px' }}>
             <span style={{ color: '#FF7F50' }}>敬一舍</span>
