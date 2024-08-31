@@ -12,7 +12,7 @@ const AdPopup = ({ isOpen, onClose }) => {
                 <h2>
                     <span role="img" aria-label="廣播">📢</span> 活動快報 <span role="img" aria-label="廣播">📢</span>
                 </h2>
-                <p>就是這兩天~~<span role="img" aria-label="日期">8/30、9/1</span></p>
+                <p>就是今天~~<span role="img" aria-label="日期"> 9/1</span></p>
                 <p style={{ fontWeight: 'bold', color: '#ff5722' }}>
                     <span role="img" aria-label="向下箭頭">👇</span> 快追蹤宿委會 FB or IG <span role="img" aria-label="向下箭頭">👇</span>
                 </p>
