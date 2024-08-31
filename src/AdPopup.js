@@ -1,14 +1,14 @@
 import React from 'react';
-import './AdPopup.css'; // 引入CSS以便於樣式設置
+import './AdPopup.css';
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 const AdPopup = ({ isOpen, onClose }) => {
-    if (!isOpen) return null; // 如果沒有打開，則不渲染任何內容
+    if (!isOpen) return null;
 
     return (
         <div className="popup-overlay">
             <div className="popup-content">
-                <button className="close-button" onClick={onClose}>✖</button> {/* 關閉按鈕 */}
+                <button className="close-button" onClick={onClose}>✖</button>
                 <h2>
                     <span role="img" aria-label="廣播">📢</span> 活動快報 <span role="img" aria-label="廣播">📢</span>
                 </h2>
